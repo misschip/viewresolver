@@ -70,6 +70,8 @@ public class IndexController {
 	@GetMapping("/layout")
 	public String layout() {
 		
+		
+		// layout.mustache 파일 참조
 		return "layout";
 	}
 	
