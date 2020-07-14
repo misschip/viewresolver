@@ -12,7 +12,9 @@
 
 
 ## 추가 : Mustache (View Template Engine)의 기본 설정값
-	* spring.mustache.prefix=classpath:/templates/
+	* spring.mustache.prefix=classpath:/templates/ == src/main/resources/templates/
 	* spring.mustache.suffix=.mustache
-	* 출처 : https://supawer0728.github.io/2018/03/14/Mustache/
-	* 참고 링크 : https://docs.spring.io/spring-boot/docs/1.3.0.M1/reference/html/common-application-properties.html
+	* 출처 : [바로가기](https://supawer0728.github.io/2018/03/14/Mustache/)
+	
+	* classpath가 src/main/resources인 것은 Maven, Gradle 툴로 만든 프로젝트에서 기본 설정
+	* 참고 링크 : [StackOverflow](https://stackoverflow.com/questions/34160419/spring-boot-classpath)
